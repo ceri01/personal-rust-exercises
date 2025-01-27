@@ -1,6 +1,8 @@
-[package]
-name = "pattern_matching"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
+[workspace]
+members = [
+    "guessing_game",
+    "hello_cargo",
+    "pattern_matching",
+    "hello_world"
+]
+resolver = "2"
